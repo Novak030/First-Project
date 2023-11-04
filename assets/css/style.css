@@ -1,0 +1,25 @@
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+header {
+    background-color: red;
+}
+
+
+
+/*Main*/
+main {
+    background-color: rgb(0, 255, 255);
+
+}
+
+
+/*Footer*/
+footer {
+    background: rgb(194, 238, 127);
+}
