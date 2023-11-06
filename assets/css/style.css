@@ -112,8 +112,21 @@ main {
 
 
 /*Footer*/
-footer {
-    background: rgb(194, 238, 127);
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+
+#social-networks i {
+    font-size: 250%;
+    padding: 10%;
+    color: #252525;
+
+
 }
 
 /* Media query: tablets and larger (768px and up) */
