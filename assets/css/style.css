@@ -26,6 +26,10 @@ header {
     width: 100%;
     border-bottom-style: solid ; color: #3a3a3a;
     box-shadow: 0 6px 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
     
  }
 
@@ -41,6 +45,7 @@ header {
         font-size: 120%;
         list-style-type: none;
         letter-spacing: 2px;
+        margin-top: 0.4em;
  }
 
  #menu > li {
@@ -50,9 +55,27 @@ header {
 
  .active {
     border-bottom: 2px solid #252525;
+}
 
+/*Navbar Styles dropdown toggle*/
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    border-bottom-style: solid;
+        color: #3a3a3a;
+        box-shadow: 0 6px 6px;
+        display: none;
 
- }
+}
+
+/*Nav Toggle*/
+#toggle:checked~nav {
+display: block;
+
+}
 
  header a {
     text-decoration: none;
@@ -68,7 +91,7 @@ header {
 
 
 
-/*Main*/
+/*Main Content*/
 main {
     background-color: rgb(0, 255, 255);
     /* Enlarge main element to push footer down*/
