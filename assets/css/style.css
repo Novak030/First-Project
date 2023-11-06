@@ -139,4 +139,15 @@ footer {
         display: none;
     }
     
+    #logo {
+        font-size: 300%;
+        line-height: 80px;
+        margin: 0 0.5rem;
+    }
+
+    /*Main content*/
+    main {
+        /* Maked Main content visible again pushed down*/
+        margin-top: 85px;
+    }
 }
