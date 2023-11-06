@@ -21,7 +21,12 @@ body {
 
 /*Header*/
 header {
-    background-color: red;
+    background-color: white;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    border-bottom-style: solid ; color: dimgray;
+    box-shadow: 0 6px 6px;
     
  }
 
