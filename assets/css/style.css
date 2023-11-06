@@ -15,8 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
-    font-family: 'Roboto Condensed', sans-serif;
+    color: #3a3a3a;    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*Header*/
@@ -25,9 +24,22 @@ header {
     padding: 0 1rem;
     position: fixed;
     width: 100%;
-    border-bottom-style: solid ; color: dimgray;
+    border-bottom-style: solid ; color: #3a3a3a;
     box-shadow: 0 6px 6px;
     
+ }
+
+ h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+    font-weight: 600;
+    font-style: oblique;
+ }
+
+ header a {
+    text-decoration: none;
+    color: inherit;
  }
 
  #logo {
