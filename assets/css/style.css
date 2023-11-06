@@ -68,6 +68,7 @@ nav {
         color: #3a3a3a;
         box-shadow: 0 6px 6px;
         display: none;
+        top: 100%;
 
 }
 
@@ -75,6 +76,14 @@ nav {
 #toggle:checked~nav {
 display: block;
 
+}
+
+#toggle {
+    display: none;
+}
+
+.toggle-label {
+    font-size: 2rem;
 }
 
  header a {
@@ -96,6 +105,7 @@ main {
     background-color: rgb(0, 255, 255);
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
+    margin-top: 44px;
     
     }
 
@@ -105,3 +115,28 @@ footer {
     background: rgb(194, 238, 127);
 }
 
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        border-bottom-style: none;
+    }
+
+    #menu {
+        display: flex;
+        
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .toggle-label {
+        display: none;
+    }
+    
+}
