@@ -107,6 +107,7 @@ main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     margin-top: 44px;
+    
    
     }
 
@@ -133,7 +134,8 @@ form {
     border: 3px solid #f1f1f1;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-   
+    display: block;
+    width: 100%;
    
 }
 
@@ -142,7 +144,8 @@ form {
     background-color: white;
     padding-left: 10rem;
     padding-right: 10rem;
-    
+    width: 100%;
+       
 }
 
 input[type=text],
@@ -153,6 +156,7 @@ input[type=submit] {
     display: inline-block;
     border: 1px solid #3a3a3a;
     box-sizing: border-box;
+    
 }
 
 input[type=checkbox] {
