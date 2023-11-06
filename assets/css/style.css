@@ -107,7 +107,7 @@ main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     margin-top: 44px;
-    
+   
     }
 
 
@@ -127,6 +127,48 @@ main {
     color: #252525;
     
 }
+
+/*Newsletter*/
+form {
+    border: 3px solid #f1f1f1;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+   
+}
+
+.container {
+    padding: auto;
+    background-color: white;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    
+}
+
+input[type=text],
+input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #3a3a3a;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: #3a3a3a;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
