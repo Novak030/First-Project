@@ -261,6 +261,9 @@ input[type=submit]:hover {
 #signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
+    letter-spacing: normal;
+    text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .text-input {
