@@ -267,9 +267,17 @@ input[type=submit]:hover {
 }
 
 
+/* Media query: tablets and larger (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+
+    }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    /*header*/
     nav {
         display: block;
         position: relative;
@@ -297,9 +305,12 @@ input[type=submit]:hover {
         line-height: 80px;
         margin: 0 0.5rem;
     }
-
-      
-
+    /*Gallery*/
+    #photos {
+        column-count: 3;
+    }
+}
+  
     /*Main content*/
     main {
         /* Maked Main content visible again pushed down*/
@@ -312,8 +323,13 @@ input[type=submit]:hover {
             #menu a:hover {
                 background-color: #3a3a3a;
                 color: aliceblue;
-                
             }
+            /*Gallery*/
+            #photos {
+                column-count: 3;
+            }
+
+
                 
            
            
