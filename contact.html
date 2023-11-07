@@ -43,31 +43,29 @@
     </header>
 
     <!--Main content-->
-    <main>Main content</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="feedback">Share your thoughts with us!</label>
+                <br>
+                <textarea id="feedback" placeholder="Your feedback" name="feedback" cols="80" rows="5">
+                </textarea>
+                <br>
+                </div>
+                <button type="submit" class="join-button">Submit</button>
+            </form>
+        </section>
+    </main>
 
     <!--Footer-->
     <footer>
-        <!--Newsletter-->
-        <hr>
-        <form action="https://formdump.codeinstitute.net">
-            <div class="container">
-                <h2>Newsletter</h2>
-                <p>Subscribe to our Newsletter to stay up to date</p>
-            </div>
-
-            <div class="container" style="background-color:white">
-                <input type="text" placeholder="Name" name="name" required>
-                <input type="text" placeholder="Email address" name="mail" required>
-                <label>
-                    <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
-                </label>
-            </div>
-
-            <div class="container">
-                <input type="submit" value="Subscribe">
-            </div>
-        </form>
-
         <hr>
         <!--Social Media-->
         <ul id="social-networks">
