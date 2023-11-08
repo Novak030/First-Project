@@ -164,6 +164,20 @@ main {
             position: relative;
         }
 
+/*Icons About us*/
+.icons-container{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.icons img{
+    height: 32px;
+    width: 32px;
+}
 
 
 /* Form */
