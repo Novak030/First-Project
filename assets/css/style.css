@@ -11,7 +11,7 @@
 
 /* General styles */
 body {
-    min-height: 100vh;
+    font-size: 62.5%;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -27,6 +27,46 @@ body {
      font-weight: 600;
      font-style: oblique;
  }
+
+section {
+    padding: 2rem 9%;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/bread-cloth.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 50rem;
+
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color: #3a3a3a;
+}
+    
+
+    .home .content span {
+            font-size: 2.5rem;
+            color: #052b0a;
+            padding: 1rem 0;
+            line-height: 1.5rem;
+
+}
+
+       .home .content p {
+            font-size: 1.5rem;
+            color:#3a3a3a;
+            padding: 1rem 0;
+            line-height: 1.5rem;
+    
+        }
 
 
 
@@ -47,7 +87,7 @@ header {
 
 
  #menu {
-        font-size: 120%;
+        font-size: 200%;
         list-style-type: none;
         letter-spacing: 2px;
         margin-top: 0.4em;
