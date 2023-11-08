@@ -47,7 +47,7 @@ section {
 }
 
 .home .content h3{
-    font-size: 5rem;
+    font-size: 2rem;
     color: #3a3a3a;
 }
     
@@ -260,7 +260,10 @@ main {
         column-gap: 0;
 
     }
-    
+        .home .content h3 {
+            font-size: 6rem;
+            color: #3a3a3a;
+        }
 
     
 
@@ -341,6 +344,27 @@ main {
             /*Gallery*/
             #photos {
                 column-count: 3;
+            }
+             .home .content h3 {
+               font-size: 8rem;
+               color: #3a3a3a;
+                        }
+
+          .home .content span {
+
+                  font-size: 4rem;
+                   padding: 1rem 0;
+                 line-height: 1.5rem;
+                        
+                        
+              }
+
+            .home .content p {
+
+            font-size: 3rem;
+            padding: 1rem 0;
+            line-height: 5rem;
+                        
             }
 
 }
