@@ -11,7 +11,7 @@
 
 /* General styles */
 body {
-    font-size: 62.5%;
+    font-size: 80%;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -47,16 +47,17 @@ section {
 }
 
 .home .content h3{
-    font-size: 6rem;
+    font-size: 5rem;
     color: #3a3a3a;
 }
     
 
     .home .content span {
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: #05d320;
             padding: 1rem 0;
             line-height: 1.5rem;
+            
 
 }
 
