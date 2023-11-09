@@ -1,4 +1,4 @@
-  # The Bakery
+# The Bakery
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Novak030/First-Project/main) ![GitHub language count](https://img.shields.io/github/languages/count/Novak030/First-Project) ![GitHub top language](https://img.shields.io/github/languages/top/Novak030/First-Project)
 
@@ -19,10 +19,17 @@ On The Bakery website, you'll discover more than just a menu; it's a celebration
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact Us page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](https://novak030.github.io/First-Project/documentation/navbar.png)
 
 
-![Na](https://novak030.github.io/First-Project/documentation/big.png)
+![Nav Bar mobile](https://novak030.github.io/First-Project/documentation/navbar.png)
 
+![Nav Bar tablet](https://novak030.github.io/First-Project/documentation/big.png)
 
-![bar](https://novak030.github.io/First-Project//documentation/navbarexpanded.png)
+![Nav Bar expanded](https://novak030.github.io/First-Project/documentation/navbarexpanded.png)
+
+- __The landing page image__
+  
+- This landing page aims to captivate the senses, inviting visitors to savor the bakery experience even before stepping through the door.
+- Our landing page showcases a delectable image adorned with carefully crafted text overlay
+
+![landing page](https://novak030.github.io/First-Project/landing.png)
