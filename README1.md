@@ -40,3 +40,9 @@ On The Bakery website, you'll discover more than just a menu; it's a celebration
 - In this segment, we'll unveil the exceptional quality and unparalleled services that define our bakery.
 
 ![landing page](https://novak030.github.io/First-Project/documentation/about.png)
+
+
+- __The Footer__
+
+- In the footer section, you'll find convenient links to The Bakery's social media platforms. These links are designed to open in a new tab, ensuring seamless navigation for users. 
+- The footer serves as a valuable hub, encouraging users to stay connected with Love Running through their preferred social media channels.

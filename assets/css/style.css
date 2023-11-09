@@ -418,3 +418,33 @@ main {
             line-height: 5rem;
              }
         }
+
+
+                .time {
+                    font-weight: bold;
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+        
+                .extra {
+                    font-weight: bold;
+                    display: inline-block;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+        
+                .sign {
+                    margin-left: 5px;
+                    display: inline-block;
+                }
+        
+                .day {
+                    margin-right: 5px;
+                    margin-left: 15px;
+                    display: inline-block;
+                    width: 20px;
+                }
+
+             
+                
+    }
