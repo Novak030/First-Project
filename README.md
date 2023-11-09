@@ -48,3 +48,56 @@ On The Bakery website, you'll discover more than just a menu; it's a celebration
 - The footer serves as a valuable hub, encouraging users to stay connected with The Bakery through their preferred social media channels.
 
 ![Footer](https://novak030.github.io/First-Project/documentation/footer.png)
+
+- __Gallery__
+
+- The bakery gallery offers users a visual journey, providing supporting images to give them a glimpse of what our creations look like.
+
+![Gallery](https://novak030.github.io/First-Project/documentation/gallery.png)
+
+
+- __The Contact Us Page__
+
+- This page has a contact form which allows the user to share his opinion with our Bakery
+
+
+![Contact](https://novak030.github.io/First-Project/documentation/contact.png)
+
+### Features Left to Implement
+
+- implementing a user-friendly menu section that will showcase the delectable array of treats we offer. From artisanal bread to mouthwatering pastries and specialty cakes, our digital menu will provide a virtual feast for the eyes. Each item will be accompanied by vivid descriptions, tantalizing images, and pricing details, ensuring our customers can easily browse and make informed choices from the comfort of their homes.
+
+
+## Testing
+
+- Starting with desktop browsers, I tested the website's compatibility with Firefox and Chrome. The design and functionality were consistent across the board. 
+  
+- The website is not only visually appealing but also boasts a high level of responsiveness. I tested its adaptability across various screen sizes using Google Chrome's developer tools, ensuring a seamless and user-friendly experience on every device.
+
+- The code got verified through both CSS and HTML validators
+
+### Lighthouse
+
+I also tested the Website with lighthouse.
+
+![Lighthouse](https://novak030.github.io/First-Project/documentation/performance.png)
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+[View The Bakery on Github Pages](https://https://novak030.github.io/First-Project/)
+
+### Content
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the about us section are from [Flaticon](https://www.flaticon.com/)
+
+### Media
+
+- The photos used on the website are from [Freepik](https://www.freepik.com/)
+  
+- The font "Roboto condensed" is taken from [Google Fonts](https://fonts.google.com/)
