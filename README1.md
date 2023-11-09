@@ -32,4 +32,11 @@ On The Bakery website, you'll discover more than just a menu; it's a celebration
 - This landing page aims to captivate the senses, inviting visitors to savor the bakery experience even before stepping through the door.
 - Our landing page showcases a delectable image adorned with carefully crafted text overlay
 
-![landing page](https://novak030.github.io/First-Project/landing.png)
+![landing page](https://novak030.github.io/First-Project/documentation/landing.png)
+
+
+- __The About Us Section__
+
+- In this segment, we'll unveil the exceptional quality and unparalleled services that define our bakery.
+
+![landing page](https://novak030.github.io/First-Project/documentation/about.png)
