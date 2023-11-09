@@ -207,6 +207,9 @@ main {
 }
 
 /* Form */
+::placeholder {
+    color: rgb(7, 3, 3);
+}
 #signup {
     background-image: url("../images/bread-cloth.jpg");
    display: flex;
@@ -244,6 +247,7 @@ main {
 
 .join-button {
     margin-top: 20px;
+    margin-left: 75px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
@@ -255,11 +259,14 @@ main {
     background: transparent;
         color: #fafafa;
         width: 100%;
-        height: 100px;
-        margin: 5px 0 20px 0;
+        height: 300px;
+        margin: 5px 0 200px 0;
         border: 1px solid #070202;
         border-radius: 2px;
-        padding: 0 5px;
+        text-align: left;
+        padding-bottom: 17rem;
+        padding-left: 10px;
+        
 
 }
 
